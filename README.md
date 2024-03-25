@@ -1,2 +1,6 @@
-# Emotions
-The goal is to run a sentiment analysis problem by focusing on the content shared on X. However, instead of positive, negative and neutral labeling of the text, we are assigning emotions to them such as love, hate, anger, etc.. This is a multi-class classification problem.
+# Extracting Emotions from Twitter Posts: A Multi-class Classification NLP Problem
+Sentiment analysis is a classic NLP (Natural Language Processing) problem where the goal is to find the sentiment expressed in the text. Often, it is run on social media posts, product reviews or comment sections of a news article. This is crucial for businesses to understand public opinion on a particular topic or product. Companies often use Sentiment analysis to track customer satisfactions, monitor social media, perform market research or analyze employees survey. 
+
+Although sentiment analysis is widely used, it has its own challenges: detecting sarcasm in text is hard; emojis are used in text more than ever which cause difficulties in accurate classification; language biases; dealing with large volume of data; use of words that have multiple meanings which can be deceiving to the model; negation does not always mean a negative sentiment, etc. The trick is to train the model on a large enough dataset and perform the pre-processing stages cautiously. 
+
+In this project, we are aiming to run a similar problem by focusing on the content shared on X (former Twitter). However, instead of positive, negative and neutral labeling for the text, we are assigning emotions to them such as love, hate, anger, etc. In other words, our approach involves utilizing various multi-class classification algorithms to precisely categorize Twitter posts based on their emotional content. 
